@@ -1,0 +1,7 @@
+Links para download do curso Bio:
+https://git-scm.com/download (Git)
+O Git Bash é um terminal em que é possível manipular um projeto
+em um repositório local.
+Também é possível clonar um repositório no servidor 
+remoto (GitHub) e manipulá-lo, modificando-o 
+e atualizando seus status para empurrá-lo para o servidor remoto novamente.
