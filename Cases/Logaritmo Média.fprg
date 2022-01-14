@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dinho"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-04 02:28:15 "/>
+        <attribute name="created" value="RGluaG87REVTS1RPUC0xSVQxVDY2OzIwMjItMDEtMDM7IjA0OjE3OjUxICI7MjcxMQ=="/>
+        <attribute name="edited" value="RGluaG87REVTS1RPUC0xSVQxVDY2OzIwMjItMDEtMDQ7IjAyOjI4OjE1ICI7MjsyODIx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nome" type="String" array="False" size=""/>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite seu nome&quot;" newline="True"/>
+            <input variable="Nome"/>
+            <output expression="&quot;Digite as notas bimestrais:&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <if expression="media&gt;=7">
+                <then>
+                    <output expression="Nome &amp; &quot; sua m&#233;dia final &#233;: &quot; &amp; media &amp; &quot; ,parab&#233;ns voc&#234; foi aprovado. &quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="media&gt;5">
+                        <then>
+                            <output expression="Nome &amp; &quot; sua m&#233;dia final &#233;: &quot; &amp; media &amp; &quot; ,voc&#234; ficou de Exame, estude um pouco mais para ser aprovado. &quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="Nome &amp; &quot; sua m&#233;dia final &#233;: &quot; &amp; media &amp; &#13;&#10;&quot; Infelizmente voc&#234; foi reprovado. &quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
