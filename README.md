@@ -82,3 +82,7 @@ Ele usa uma encriptação que gera um conjunto de caracteres identificador de 40
 - [Markdown](https://www.markdownguide.org/basic-syntax)
 - [Markdown online](https://dillinger.io/)
 - [Download Portugol](https://github.com/UNIVALI-LITE/Portugol-Studio/releases/)
+- [Portugol online](https://portugol-webstudio.cubos.io/ide)
+- [Download Flowgorithm](http://flowgorithm.org/download/index.html)
+- [Download Visual Studio](https://visualstudio.microsoft.com/pt-br/)
+- [Orientação Visual Studio](https://docs.microsoft.com/pt-br/visualstudio/windows/?view=vs-2022&preserve-view=true)
